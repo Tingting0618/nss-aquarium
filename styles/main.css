@@ -1,0 +1,47 @@
+@import './fish.css';
+
+.header {
+    display: flex;
+}
+.title{
+    display: flex;
+    color:midnightblue;
+    border: 3px dotted rgb(10, 85, 110);
+    margin: auto;
+}
+img{
+    width: 10 rem;
+}
+main{
+    display: flex;
+    order:2;
+}
+
+.right{
+    flex:3;
+}
+
+.left{
+    flex:1;
+}
+
+
+.fish__name {
+    border: 3px dotted goldenrod;
+    margin: 3 rem;
+}
+
+
+.section--quotes{
+    border: 3px dotted goldenrod;
+    margin: 3 rem;
+}
+
+.section--locations{
+    border: 3px dotted goldenrod;
+    margin: 3 rem;
+}
+
+.footer{
+    display: flex;
+}
