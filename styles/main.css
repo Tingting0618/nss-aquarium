@@ -2,46 +2,81 @@
 
 .header {
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    
 }
-.title{
+
+img {
+    margin-left: auto;
+}
+
+.title {
     display: flex;
     color:midnightblue;
-    border: 3px dotted rgb(10, 85, 110);
+    border: 4px dotted rgb(10, 85, 110);
     margin: auto;
 }
-img{
-    width: 10 rem;
-}
-main{
+
+
+
+main {
+    
     display: flex;
-    order:2;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
 }
 
-.right{
-    flex:3;
+body {
+    background-color:rgb(201, 219, 216);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.left{
-    flex:1;
+h2 {
+    background-color:rgb(7, 53, 45);
+    color:honeydew;
+    margin: auto;
+    padding: 1em;
+}
+.right {
+    flex: 0 0 30%;
+    margin-right: auto;
+}
+
+.left {
+    flex: 0 0 70%;
 }
 
 
 .fish__name {
-    border: 3px dotted goldenrod;
+    border: 3px dotted rgb(148, 146, 140);
     margin: 3 rem;
 }
 
 
 .section--quotes{
-    border: 3px dotted goldenrod;
+    border: 3px dotted rgb(230, 227, 222);
     margin: 3 rem;
+}
+
+.locations{
+    border: 3px dotted rgb(230, 227, 222);
 }
 
 .section--locations{
-    border: 3px dotted goldenrod;
+    border: 3px dotted rgb(230, 227, 222);
     margin: 3 rem;
 }
 
-.footer{
+
+footer {
+    background-color:rgb(7, 53, 45);
+    color:honeydew;
     display: flex;
-}
+    justify-content: space-between;
+    font-size: smaller;
+    margin: 1 rem;
+    padding: 1.5em;
+
+  }
